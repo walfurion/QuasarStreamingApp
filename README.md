@@ -1,97 +1,81 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Quasar Streaming App
 
-# Getting Started
+## Descripción
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+Prototipo de aplicación móvil de streaming desarrollada en React Native + TypeScript, siguiendo un diseño de Figma y buenas prácticas de arquitectura y componentes reutilizables.
 
-## Step 1: Start Metro
+---
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+## 🚀 Instrucciones de instalación y ejecución
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+1. **Clona el repositorio:**
+   ```bash
+   git clone <URL_DE_TU_REPO>
+   cd QuasarStreamingApp
+   ```
 
-```sh
-# Using npm
-npm start
+2. **Instala dependencias:**
+   ```bash
+   npm install
+   # o
+   yarn install
+   ```
 
-# OR using Yarn
-yarn start
-```
+3. **Instala pods para iOS:**
+   ```bash
+   cd ios
+   pod install
+   cd ..
+   ```
 
-## Step 2: Build and run your app
+4. **Corre la app:**
+   - iOS:
+     ```bash
+     npx react-native run-ios
+     ```
+   - Android:
+     ```bash
+     npx react-native run-android
+     ```
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+---
 
-### Android
+## 🏗️ Decisiones de arquitectura
 
-```sh
-# Using npm
-npm run android
+- **Estructura modular:**
+  - `src/components/`: Componentes reutilizables (tarjetas, listas, títulos de sección).
+  - `src/screens/`: Pantallas principales de la app.
+  - `src/navigation/`: Configuración de navegación (React Navigation).
+  - `src/types/`: Tipos TypeScript para datos y props.
+  - `src/data/`: Datos mockeados en JSON.
+- **Tipado estricto:** Uso de TypeScript en todo el proyecto para seguridad y autocompletado.
+- **Navegación:** React Navigation con BottomTabNavigator.
+- **Estilos:** StyleSheet de React Native, siguiendo el diseño de Figma (colores, márgenes, tipografía, aspect ratio).
+- **Assets remotos:** Imágenes y datos de películas se cargan desde un JSON local, pero con URLs reales.
+- **Componentes desacoplados:** Cada sección y tarjeta es un componente reutilizable y fácil de testear.
 
-# OR using Yarn
-yarn android
-```
+---
 
-### iOS
+## ✅ Features implementados (Home Screen)
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+- **Trending destacado:**
+  - Imagen principal con título, metadata, clasificación y advertencias.
+  - Modal para ver la descripción completa al hacer click.
+- **Sección "You Might Like":**
+  - Scroll horizontal con tarjetas de películas (aspect ratio 4:5).
+- **Sección "My List":**
+  - Scroll horizontal con tarjetas de películas (aspect ratio 16:9).
+- **Navegación inferior:**
+  - Barra de navegación con ícono de Home.
+- **Responsive y animaciones suaves.**
+- **Tipado y validación de datos.**
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+---
 
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+## 📄 Notas
+- Este prototipo solo implementa la Home Screen.
+- El diseño y los assets siguen el Figma proporcionado.
+- Puedes extender la arquitectura para más pantallas fácilmente.
+- Se agregó manejo de estado de carga (loading) y error en la Home Screen. (Simulados)
+- Se muestra un spinner visual (ActivityIndicator) y mensaje "Cargando..." mientras se cargan los datos.
+- Si ocurre un error al cargar el JSON, se muestra un mensaje de error en pantalla.
