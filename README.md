@@ -10,7 +10,7 @@ Prototipo de aplicación móvil de streaming desarrollada en React Native + Type
 
 1. **Clona el repositorio:**
    ```bash
-   git clone <URL_DE_TU_REPO>
+   git clone <URL>
    cd QuasarStreamingApp
    ```
 
