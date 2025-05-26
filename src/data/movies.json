@@ -1,0 +1,516 @@
+{
+    "containers": [
+      {
+        "id": "trending",
+        "title": "Trending Now",
+        "layout": "portrait-card",
+        "items": [
+          {
+            "id": "movie1",
+            "title": "Oppenheimer", 
+            "year": 2023,
+            "duration": "3H 00MIN",
+            "rating": "R",
+            "quality": "4K UHD",
+            "description": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb. A gripping tale of scientific achievement, moral dilemmas, and historical consequences.",
+            "isTopMovie": true,
+            "similarContent": ["movie4", "movie8", "movie2"],
+            "posters": {
+              "portrait": {
+                "url": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2023/06/01153825/aqZ75oN6yd7UTShYIMNlpSdDbbH-2-scaled.jpg",
+                "aspectRatio": "2/3"
+              },
+              "landscape": {
+                "url": "https://www.akureyri.is/static/news/lg/1711553284_oppenheimer02.jpg", 
+                "aspectRatio": "16/9"
+              },
+              "thumbnail": {
+                "url": "https://media.wired.com/photos/64bae9eedaed59ebbf460ca6/4:3/w_2132,h_1599,c_limit/Oppenheimer-and-the-Dharma-of-Death-Culture.jpg",
+                "aspectRatio": "4/3"
+              }
+            },
+            "cast": [
+              {
+                "characterName": "J. Robert Oppenheimer",
+                "actorName": "Cillian Murphy"
+              },
+              {
+                "characterName": "Katherine Oppenheimer", 
+                "actorName": "Emily Blunt"
+              },
+              {
+                "characterName": "Leslie Groves",
+                "actorName": "Matt Damon"
+              }
+            ],
+            "crew": {
+              "directors": ["Christopher Nolan"],
+              "producers": ["Emma Thomas", "Charles Roven"],
+              "writers": ["Christopher Nolan"]
+            },
+            "classification": {
+              "rating": "+18",
+              "advisoryContent": [
+                "Some Sexual Content",
+                "Nudity",
+                "Language"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "you-might-like",
+        "title": "You Might Like", 
+        "layout": "landscape-card",
+        "items": [
+          {
+            "id": "movie2",
+            "title": "Barbie",
+            "year": 2023,
+            "duration": "1H 54MIN",
+            "rating": "PG-13",
+            "quality": "4K UHD",
+            "description": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land. However, when they get a chance to go to the real world, they soon discover the joys and perils of living among humans.",
+            "isTopMovie": false,
+            "similarContent": ["movie10", "movie1", "movie4"],
+            "posters": {
+              "portrait": {
+                "url": "https://play-lh.googleusercontent.com/-9TH8SNQAlVgNnQKn8fwogFspikmJJNKayZJWhTPWiaUrpoK21-A_sySTB9D1KGP1Vjotpmfzllw4HKUKA",
+                "aspectRatio": "2/3"
+              },
+              "landscape": {
+                "url": "https://www.miarevista.es/wp-content/uploads/sites/3/2024/02/01/65bb58d02a079-schema.jpeg",
+                "aspectRatio": "16/9"
+              },
+              "thumbnail": {
+                "url": "https://media.vogue.co.uk/photos/64130ed6b969888aada448cb/4:3/w_2803,h_2102,c_limit/rev-1-BARBIE-TP-0002_High_Res_JPEG.jpeg",
+                "aspectRatio": "4/3"
+              }
+            },
+            "cast": [
+              {
+                "characterName": "Barbie",
+                "actorName": "Margot Robbie"
+              },
+              {
+                "characterName": "Ken",
+                "actorName": "Ryan Gosling"
+              }
+            ],
+            "crew": {
+              "directors": ["Greta Gerwig"],
+              "producers": ["Margot Robbie", "Tom Ackerley"],
+              "writers": ["Greta Gerwig", "Noah Baumbach"]
+            },
+            "classification": {
+              "rating": "+13",
+              "advisoryContent": [
+                "Suggestive References",
+                "Brief Language"
+              ]
+            }
+          },
+          {
+            "id": "movie3",
+            "title": "Poor Things",
+            "year": 2023,
+            "duration": "2H 21MIN",
+            "rating": "R",
+            "quality": "4K UHD",
+            "description": "The incredible tale of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter.",
+            "isTopMovie": false,
+            "similarContent": ["movie7", "movie6", "movie8"],
+            "posters": {
+              "portrait": {
+                "url": "https://s29288.pcdn.co/wp-content/uploads/2024/04/Poor-Things-Poster-2-copy.jpg",
+                "aspectRatio": "2/3"
+              },
+              "landscape": {
+                "url": "https://m.media-amazon.com/images/M/MV5BYWU2MjRjZTYtMjVkMS00MTBjLWFiMTAtYmZlYTk1YjkyMWFkXkEyXkFqcGc@._V1_.jpg",
+                "aspectRatio": "16/9"
+              },
+              "thumbnail": {
+                "url": "https://cdn.theasc.com/Poor-Things-Featured.jpg",
+                "aspectRatio": "4/3"
+              }
+            },
+            "cast": [
+              {
+                "characterName": "Bella Baxter",
+                "actorName": "Emma Stone"
+              },
+              {
+                "characterName": "Dr. Godwin Baxter",
+                "actorName": "Willem Dafoe"
+              }
+            ],
+            "crew": {
+              "directors": ["Yorgos Lanthimos"],
+              "producers": ["Ed Guiney", "Andrew Lowe"],
+              "writers": ["Tony McNamara"]
+            },
+            "classification": {
+              "rating": "+18",
+              "advisoryContent": [
+                "Strong Sexual Content",
+                "Graphic Nudity",
+                "Language"
+              ]
+            }
+          },
+          {
+            "id": "movie4",
+            "title": "Killers of the Flower Moon",
+            "year": 2023,
+            "duration": "3H 26MIN",
+            "rating": "R", 
+            "quality": "4K UHD",
+            "description": "Members of the Osage tribe in the United States are murdered under mysterious circumstances in the 1920s, sparking a major FBI investigation.",
+            "isTopMovie": false,
+            "similarContent": ["movie9", "movie6", "movie2"],
+            "posters": {
+              "portrait": {
+                "url": "https://basededatos.atrae.org/media/works/dB6Krk806zeqd0YNp2ngQ9zXteH.jpg",
+                "aspectRatio": "2/3"
+              },
+              "landscape": {
+                "url": "https://ntvb.tmsimg.com/assets/p22972321_v_h10_aa.jpg?w=1280&h=720",
+                "aspectRatio": "16/9"
+              },
+              "thumbnail": {
+                "url": "https://media.newyorker.com/photos/6532a2c430a57c5d593bd8f6/4:3/w_2276,h_1707,c_limit/brody-killers%20of%20the%20flower%20moon.jpg",
+                "aspectRatio": "4/3"
+              }
+            },
+            "cast": [
+              {
+                "characterName": "Ernest Burkhart",
+                "actorName": "Leonardo DiCaprio"
+              },
+              {
+                "characterName": "William Hale",
+                "actorName": "Robert De Niro"
+              }
+            ],
+            "crew": {
+              "directors": ["Martin Scorsese"],
+              "producers": ["Dan Friedkin", "Bradley Thomas"],
+              "writers": ["Eric Roth", "Martin Scorsese"]
+            },
+            "classification": {
+              "rating": "+18",
+              "advisoryContent": [
+                "Violence",
+                "Disturbing Images", 
+                "Language"
+              ]
+            }
+          },
+          {
+            "id": "movie5",
+            "title": "The Holdovers",
+            "year": 2023,
+            "duration": "2H 13MIN",
+            "rating": "R",
+            "quality": "4K UHD",
+            "description": "A curmudgeonly instructor at a New England prep school remains on campus during Christmas break to babysit students who couldn't go home.",
+            "isTopMovie": false,
+            "similarContent": ["movie1", "movie9", "movie8"],
+            "posters": {
+              "portrait": {
+                "url": "https://www.uphe.com/sites/default/files/styles/scale__319w_/public/2024/11/TheHoldovers_Poster_800x1130.webp?itok=Zl6sDKKl",
+                "aspectRatio": "2/3"
+              },
+              "landscape": {
+                "url": "https://www.laprensagrafica.com/__export/1707510236627/sites/prensagrafica/img/2024/02/09/the_holdovers.jpg_673822677.jpg",
+                "aspectRatio": "16/9"
+              },
+              "thumbnail": {
+                "url": "https://media.vanityfair.com/photos/654530d9e17e82085c7685ab/4:3/w_1920,h_1440,c_limit/vf1123-the-holdovers-005.jpg",
+                "aspectRatio": "4/3"
+              }
+            },
+            "cast": [
+              {
+                "characterName": "Paul Hunham",
+                "actorName": "Paul Giamatti"
+              },
+              {
+                "characterName": "Mary Lamb",
+                "actorName": "Da'Vine Joy Randolph"
+              }
+            ],
+            "crew": {
+              "directors": ["Alexander Payne"],
+              "producers": ["Mark Johnson", "Bill Block"],
+              "writers": ["David Hemingson"]
+            },
+            "classification": {
+              "rating": "+18",
+              "advisoryContent": [
+                "Language",
+                "Drug Use",
+                "Brief Sexual Material"
+              ]
+            }
+          },
+          {
+            "id": "movie6",
+            "title": "The Boy and the Heron",
+            "year": 2023,
+            "duration": "2H 04MIN",
+            "rating": "PG-13",
+            "quality": "4K UHD",
+            "description": "After losing his mother during the war, young Mahito moves to his family's estate in the countryside. There, a mysterious grey heron helps him enter a fantastic world as he confronts his grief and seeks understanding about life, death, and new beginnings.",
+            "isTopMovie": false,
+            "similarContent": ["movie4", "movie2", "movie1"],
+            "posters": {
+              "portrait": {
+                "url": "https://myhotposters.com/cdn/shop/files/mL7004_1024x1024.jpg?v=1713531410",
+                "aspectRatio": "2/3"
+              },
+              "landscape": {
+                "url": "https://theronin.org/wp-content/uploads/2023/09/studio-ghibli_confirms_more-films_from_-miyazaki_the-boy-and-the-heron_.jpg?w=984",
+                "aspectRatio": "16/9"
+              },
+              "thumbnail": {
+                "url": "https://www.bpmcdn.com/f/files/shared/feeds/gps/2023/12/web1_20231205181240-656fb4d4818f874b19bb6e06jpeg.jpg",
+                "aspectRatio": "4/3"
+              }
+            },
+            "cast": [
+              {
+                "characterName": "Mahito Maki",
+                "actorName": "Soma Santoki"
+              },
+              {
+                "characterName": "The Grey Heron",
+                "actorName": "Masaki Suda"
+              },
+              {
+                "characterName": "Shoichi Maki",
+                "actorName": "Takuya Kimura"
+              }
+            ],
+            "crew": {
+              "directors": ["Hayao Miyazaki"],
+              "producers": ["Toshio Suzuki"],
+              "writers": ["Hayao Miyazaki"]
+            },
+            "classification": {
+              "rating": "+13",
+              "advisoryContent": [
+                "Some Violent Content",
+                "Thematic Elements",
+                "Brief Strong Language"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "my-list",
+        "title": "My List",
+        "layout": "portrait-card",
+        "items": [
+          {
+            "id": "movie7",
+            "title": "Napoleon",
+            "year": 2023,
+            "duration": "2H 38MIN",
+            "rating": "R",
+            "quality": "4K UHD",
+            "description": "An epic historical drama that details the checkered rise and fall of French Emperor Napoleon Bonaparte and his relentless journey to power through the prism of his addictive relationship with his wife, Josephine.",
+            "isTopMovie": false,
+            "similarContent": ["movie2", "movie10", "movie8"],
+            "posters": {
+              "portrait": {
+                "url": "https://ruinedchapel.com/wp-content/uploads/2023/11/napoleon-.png",
+                "aspectRatio": "2/3"
+              },
+              "landscape": {
+                "url": "https://i.ytimg.com/vi/066QqmqT_EE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBbcgo9GaskGUyZ22QfnA4C4QHL5A",
+                "aspectRatio": "16/9"
+              },
+              "thumbnail": {
+                "url": "https://variety.com/wp-content/uploads/2023/07/Screen-Shot-2023-07-31-at-11.24.10-AM-e1692205607890.png?w=1000&h=667&crop=1",
+                "aspectRatio": "4/3"
+              }
+            },
+            "cast": [
+                {
+                    "characterName": "Napoleon Bonaparte",
+                    "actorName": "Joaquin Phoenix"
+                  },
+                  {
+                    "characterName": "Josephine",
+                    "actorName": "Vanessa Kirby"
+                  }
+                ],
+                "crew": {
+                  "directors": ["Ridley Scott"],
+                  "producers": ["Ridley Scott", "Mark Huffam"],
+                  "writers": ["David Scarpa"]
+                },
+                "classification": {
+                  "rating": "+18",
+                  "advisoryContent": [
+                    "Strong Violence",
+                    "Sexual Content",
+                    "Brief Graphic Nudity"
+                  ]
+                }
+              },
+              {
+                "id": "movie8",
+                "title": "Past Lives",
+                "year": 2023,
+                "duration": "1H 45MIN",
+                "rating": "PG-13",
+                "quality": "4K UHD",
+                "description": "Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Twenty years later, they are reunited in New York for one fateful week.",
+                "isTopMovie": false,
+                "similarContent": ["movie4", "movie3", "movie5"],
+                "posters": {
+                  "portrait": {
+                    "url": "https://d135u4jtzauizi.cloudfront.net/pastlives_tease_vertical_27x40_compressed.JPG",
+                    "aspectRatio": "2/3"
+                  },
+                  "landscape": {
+                    "url": "https://www.adambowie.com/wp-content/uploads/2024/01/pastlives-scaled.jpg",
+                    "aspectRatio": "16/9"
+                  },
+                  "thumbnail": {
+                    "url": "https://cdn.idntimes.com/content-images/community/2023/09/untitledaa-ffc979a49600af5fb6f9f505ffc466f5-fc335091288f19f635c163df8cf80b02_600x400.png",
+                    "aspectRatio": "4/3"
+                  }
+                },
+                "cast": [
+                  {
+                    "characterName": "Nora",
+                    "actorName": "Greta Lee"
+                  },
+                  {
+                    "characterName": "Hae Sung",
+                    "actorName": "Teo Yoo"
+                  }
+                ],
+                "crew": {
+                  "directors": ["Celine Song"],
+                  "producers": ["Christine Vachon", "Pamela Koffler"],
+                  "writers": ["Celine Song"]
+                },
+                "classification": {
+                  "rating": "+13",
+                  "advisoryContent": [
+                    "Brief Strong Language",
+                    "Some Sexual Content",
+                    "Smoking"
+                  ]
+                }
+              },
+              {
+                "id": "movie9",
+                "title": "The Zone of Interest",
+                "year": 2023,
+                "duration": "1H 45MIN",
+                "rating": "R",
+                "quality": "4K UHD",
+                "description": "The commandant of Auschwitz, Rudolf Höss, and his wife Hedwig, strive to build a dream life for their family in a house and garden next to the camp.",
+                "isTopMovie": false,
+                "similarContent": ["movie6", "movie8", "movie1"],
+                "posters": {
+                  "portrait": {
+                    "url": "https://images.savoysystems.co.uk/GCL/1625280.jpg",
+                    "aspectRatio": "2/3"
+                  },
+                  "landscape": {
+                    "url": "https://13thfloor.co.nz/wp-content/uploads/2024/02/Zone-Of-Interest.png",
+                    "aspectRatio": "16/9"
+                  },
+                  "thumbnail": {
+                    "url": "https://media.newyorker.com/photos/657b310f456cc0528112e74d/4:3/w_1440,h_1080,c_limit/TheZoneOfInterest_textless_ProRes422HQ_24p_1920x1080_178_Rec709_51-20_20230929.00_46_51_20.Still001.jpg",
+                    "aspectRatio": "4/3"
+                  }
+                },
+                "cast": [
+                  {
+                    "characterName": "Rudolf Höss",
+                    "actorName": "Christian Friedel"
+                  },
+                  {
+                    "characterName": "Hedwig Höss",
+                    "actorName": "Sandra Hüller"
+                  }
+                ],
+                "crew": {
+                  "directors": ["Jonathan Glazer"],
+                  "producers": ["James Wilson", "Len Blavatnik"],
+                  "writers": ["Jonathan Glazer"]
+                },
+                "classification": {
+                  "rating": "+18",
+                  "advisoryContent": [
+                    "Disturbing Material",
+                    "Graphic Content",
+                    "Language"
+                  ]
+                }
+              },
+              {
+                "id": "movie10",
+                "title": "Spider-Man: Across the Spider-Verse",
+                "year": 2023,
+                "duration": "2H 20MIN",
+                "rating": "PG",
+                "quality": "4K UHD",
+                "description": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. When the heroes clash on how to handle a new threat, Miles must find what it means to be a hero.",
+                "isTopMovie": false,
+                "similarContent": ["movie9", "movie7", "movie2"],
+                "posters": {
+                  "portrait": {
+                    "url": "https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+                    "aspectRatio": "2/3"
+                  },
+                  "landscape": {
+                    "url": "https://musicart.xboxlive.com/7/7e1e6700-0000-0000-0000-000000000002/504/image.jpg",
+                    "aspectRatio": "16/9"
+                  },
+                  "thumbnail": {
+                    "url": "https://focus.nouvelobs.com/2023/05/30/0/266/1114/743/1200/800/0/0/eff78af_1685450961516-spiderverse.jpg",
+                    "aspectRatio": "4/3"
+                  }
+                },
+                "cast": [
+                  {
+                    "characterName": "Miles Morales",
+                    "actorName": "Shameik Moore"
+                  },
+                  {
+                    "characterName": "Gwen Stacy",
+                    "actorName": "Hailee Steinfeld"
+                  },
+                  {
+                    "characterName": "Miguel O'Hara",
+                    "actorName": "Oscar Isaac"
+                  }
+                ],
+                "crew": {
+                  "directors": ["Joaquim Dos Santos", "Kemp Powers", "Justin K. Thompson"],
+                  "producers": ["Phil Lord", "Christopher Miller", "Amy Pascal"],
+                  "writers": ["Phil Lord", "Christopher Miller", "Dave Callaham"]
+                },
+                "classification": {
+                  "rating": "All",
+                  "advisoryContent": [
+                    "Action Sequences",
+                    "Language",
+                    "Some Thematic Elements"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
